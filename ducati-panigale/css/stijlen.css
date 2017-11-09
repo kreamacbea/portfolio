@@ -1,0 +1,262 @@
+body {
+  background-color: #454545;
+  font-family: 'bicyclette', sans-serif;
+  color: white;
+}
+
+
+/* tbv centreren pagina inhoud */
+.page-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 10rem;
+}
+
+
+/* algemene tekstijlen */
+h1, .intro {
+  text-align: center;
+}
+
+h1 {
+  font-weight: 200;
+  font-size: 7em;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: 2em;
+  margin-top: 4rem;
+  margin-bottom: 0;
+}
+
+h2, p, .intro {
+  font-family: 'effra', sans-serif;
+  font-weight: 300;
+}
+
+p {
+  font-size: 1.25em;
+  line-height: 1.35;
+}
+
+.intro {
+  font-size: 1.5em;
+  margin-bottom: 4rem;
+}
+
+
+/* navigatie */
+header {
+  background-color: #111;
+  width: 100%;
+  height: auto;
+  margin-bottom: 2rem;
+  box-shadow: 0 7px 4px #333;
+}
+
+nav {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+ul {
+  display: inline-block;
+  list-style-type: none;
+  margin-top: 0;
+  vertical-align: middle;
+}
+
+li {
+  display: inline-block;
+  list-style: none;
+  margin-right: 4rem;
+  padding: 0.5rem 0.75rem;
+  border: 1.5px solid white;
+  opacity: 0.6;
+  text-align: center;
+}
+
+li > a {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 1.25em;
+  color: white;
+  text-decoration: none;
+}
+
+li:hover {
+  background-color: #163923;
+  opacity: 1;
+}
+
+li.active {
+  background-color: #BE1D22;
+  border-color: #BE1D22;
+}
+
+
+/* header > nav > logo Ducati + Panigale */
+.logo-wrapper {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#ducati-logo {
+  max-width: 150px;
+  height: 100%;
+  padding: 0;
+  margin-right: 3rem;
+}
+
+#panigale-logo {
+  width: 225px;
+  height: auto;
+  margin-right: 4rem;
+}
+
+
+/* tbv jquery-plugin responsive imagemap */
+img[usemap] {
+  border: none;
+  height: auto;
+  max-width: 100%;
+  width: auto;
+}
+
+
+/* tekstblokken info hotspots */
+.info {
+  max-width: 1200px;
+}
+
+
+
+
+/*** MEDIA QUERIES ***/
+
+
+/* tablet */
+
+@media only screen and (max-width: 1024px) {
+
+  nav {
+    padding-bottom: 1rem;
+  }
+
+  #ducati-logo {
+    width: 100px;
+    margin-right: 1.5rem;
+  }
+
+  #panigale-logo {
+    width: 175px;
+    margin-right: 0;
+  }
+
+  li {
+    margin-right: 0;
+  }
+
+  li:first-child {
+    margin-right: 2rem;
+  }
+
+  li > a {
+    font-size: 1em;
+}
+
+  .page-wrapper {
+    padding: 0 2rem;
+  }
+
+  h1 {
+    font-size: 5em;
+  }
+
+  h2 {
+    font-size: 1.75em;
+    margin-top: 1.75rem;
+  }
+
+  p {
+    margin-top: 0.5rem;
+  }
+}
+
+/* mobile */
+@media only screen and (max-width: 425px) {
+
+  header {
+    padding-top: 1.5rem;
+    box-shadow: none;
+  }
+
+  nav {
+    padding: 0;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .logo-wrapper {
+    display: inline-block;
+    padding: 0;
+  }
+
+  #ducati-logo {
+    width: 70px;
+    margin-right: 0.5rem;
+  }
+
+  #panigale-logo {
+    width: 150px;
+    margin: 0;
+  }
+
+  ul {
+    vertical-align: top;
+    display: block;
+    margin: 1rem auto 0;
+    padding: 0;
+  }
+
+  li {
+    display: block;
+    background-color: rgba(69,69,69,0.2);
+    border-top: 1px solid #454545;
+    border-bottom: 0;
+    border-left: 0;
+    border-right: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0.5rem 0;
+  }
+
+  li.active {
+    border: none;
+  }
+
+  .page-wrapper {
+    padding: 0 1rem;
+  }
+
+  h1 {
+    font-size: 2.5em;
+  }
+
+  h2 {
+    font-size: 1.25em;
+    margin-top: 1.25rem;
+  }
+
+  .intro {
+    font-size: 1.075em;
+    margin-bottom: 2rem;
+  }
+
+  p {
+    font-size: 1em;
+    margin-top: 0.45rem;
+  }
+}
