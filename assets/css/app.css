@@ -140,10 +140,8 @@ header > .navbar {
   font-style: italic;
 }
 
-.btn-outline-primary {
-  border-color: #3023ae;
+.card-btn {
   border-radius: 0.15rem;
-  color: #3023ae;
   font-family: 'bicyclette', sans-serif;
   margin-top: 2rem;
 }
