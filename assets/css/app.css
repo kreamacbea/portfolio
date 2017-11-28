@@ -27,10 +27,6 @@ section {
   margin-top: 1rem;
 }
 
-.nobreak {
-  white-space: nowrap;
-}
-
 
 /*/ NAVBAR TOP /*/
 
@@ -102,7 +98,6 @@ header > .navbar {
 
 .card {
   border: none;
-  font-family: 'oxtail', serif;
   margin-bottom: 30px;
   text-align: center;
 }
@@ -126,34 +121,31 @@ header > .navbar {
 
 .card-subtitle {
   color: #3023ae;
-  font-family: 'bicyclette', sans-serif;
   line-height: 1.75;
 }
 
 .card-title {
   color: #3023ae;
-  font-family: 'boucherie-block', serif;
+  font-weight: 500;
   margin-bottom: 0;
 }
 
 .card-text {
-  margin-bottom: 0;
+  font-weight: 500;
 }
 
-.card-text span {
-  font-style: italic;
+.card-goal {
+  font-weight: 300;
 }
 
 .card-btn {
   border-radius: 0.15rem;
-  font-family: 'bicyclette', sans-serif;
   margin-top: 2rem;
 }
 
 .card-footer {
   background: none;
   border-top: 0;
-  font-family: 'bicyclette', sans-serif;
   margin-top: 1rem;
   padding-bottom: 1rem;
   padding-top: 1rem;
@@ -161,6 +153,7 @@ header > .navbar {
 
 .badge {
   font-weight: normal;
+  text-transform: uppercase;
 }
 
 .badge-light {
@@ -227,7 +220,7 @@ li {
 
 
 
-/*/ - MEDIA QUERIES - /*/
+/*** MEDIA QUERIES ***/
 
 
 /* mobile L */
