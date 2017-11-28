@@ -22,7 +22,7 @@ section {
 .subheading {
   color: #3023ae;
   font-size: 135%;
-  font-weight: 600;
+  font-weight: 700;
   margin-bottom: 1.5rem;
   margin-top: 1rem;
 }
@@ -126,12 +126,12 @@ header > .navbar {
 
 .card-title {
   color: #3023ae;
-  font-weight: 500;
+  font-weight: 400;
   margin-bottom: 0;
 }
 
 .card-text {
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .card-goal {
