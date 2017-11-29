@@ -99,6 +99,7 @@ header > .navbar {
 .card {
   border: none;
   margin-bottom: 30px;
+  padding-bottom: 30px;
   text-align: center;
 }
 
@@ -136,6 +137,7 @@ header > .navbar {
 }
 
 .card-goal {
+  font-size: 90%;
   font-weight: 300;
   line-height: 1.25;
 }
@@ -161,7 +163,7 @@ header > .navbar {
 .badge-pill {
   background-color: #00ffcc;
   color: #3023ae;
-  margin-bottom: 0.65rem;
+  margin-bottom: 0.5rem;
 }
 
 .badge-light {
@@ -271,7 +273,7 @@ li {
     margin-bottom: 2rem;
   }
 
-  .badge {
+  .badge-light {
     margin-bottom: 0.25rem;
     padding-top: 0.35em;
     vertical-align: middle;
