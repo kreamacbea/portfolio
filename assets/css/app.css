@@ -121,6 +121,7 @@ header > .navbar {
 
 .card-subtitle {
   color: #3023ae;
+  font-size: 90%;
   line-height: 1.75;
 }
 
@@ -131,10 +132,12 @@ header > .navbar {
 
 .card-text {
   font-weight: 400;
+  line-height: 1.25;
 }
 
 .card-goal {
   font-weight: 300;
+  line-height: 1.25;
 }
 
 .card-btn {
@@ -153,6 +156,12 @@ header > .navbar {
 .badge {
   font-weight: normal;
   text-transform: uppercase;
+}
+
+.badge-pill {
+  background-color: #00ffcc;
+  color: #3023ae;
+  margin-bottom: 0.65rem;
 }
 
 .badge-light {
@@ -184,6 +193,7 @@ ul {
 }
 
 li {
+  font-size: 90%;
   line-height: normal;
 }
 
