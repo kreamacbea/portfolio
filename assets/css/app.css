@@ -98,12 +98,16 @@ header > .navbar {
 
 .card {
   border: none;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 4px 8px rgba(0, 0, 0, 0.025);
   margin-bottom: 30px;
   padding-bottom: 30px;
   text-align: center;
 }
 
 .card-img-top {
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
   filter: brightness(0.7);
   max-height: 100%;
   max-width: 100%;
